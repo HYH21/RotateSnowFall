@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:snowfall="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_snowfall"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <com.example.hyh.snowfall.RotateSnowFallView
+        android:id="@+id/snowfall"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        snowfall:snowflakesNum="300"
+        snowfall:snowflakeAlphaMin="151"
+        snowfall:snowflakeAlphaMax="256"
+        snowfall:snowflakeAngleMax="6"
+        snowfall:snowflakeSizeMin="9dp"
+        snowfall:snowflakeSizeMax="33dp"
+        snowfall:snowflakeSpeedMin="5"
+        snowfall:snowflakeSpeedMax="13"
+        snowfall:snowflakesFadingEnabled="true"
+        snowfall:snowflakesAlreadyFalling="false"
+        snowfall:snowflakeImage="@drawable/snowflake"
+        android:background="#6f6f6f"/>
+
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/RotateSnowFall.iml" filepath="$PROJECT_DIR$/RotateSnowFall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rotate-sample/rotate-sample.iml" filepath="$PROJECT_DIR$/rotate-sample/rotate-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/snowfall/snowfall.iml" filepath="$PROJECT_DIR$/snowfall/snowfall.iml" />
+    </modules>
+  </component>
+</project>
